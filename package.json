@@ -1,0 +1,15 @@
+{
+  "name": "detodito",
+  "version": "1.0.0",
+  "description": "Javascript library",
+  "main": "index.js",
+  "scripts": {
+    "test": "dotest",
+    "goprod": "browserify index.js --standalone detodito -o ./dist/detodito.js"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Jhon Aguiar",
+  "license": "ISC"
+}
